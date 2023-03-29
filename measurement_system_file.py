@@ -274,8 +274,8 @@ def cloud_export():
     AUTHORITY_URL = 'https://login.microsoftonline.com/{}'.format(TENANT_ID)
     RESOURCE_URL = 'https://graph.microsoft.com/'
     API_VERSION = 'v1.0'
-    USERNAME = 'hayley.gittens@my.uwi.edu' #Office365 user's account username
-    PASSWORD = '********'
+    USERNAME = '********@my.uwi.edu' #Office365 user's account username
+    PASSWORD = '********'	     #Office365 user's account password
     SCOPES = ['Sites.ReadWrite.All','Files.ReadWrite.All'] # Add other scopes/permissions as needed.
 
     #Creating a public client app, acquires a access token for the user and set the header for API calls
